@@ -1,0 +1,57 @@
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Container styles */
+.container {
+    max-width: 400px; /* Limit the width of the container */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Header styles */
+h2 {
+    text-align: center; /* Center align the header */
+    margin-bottom: 20px; /* Space below the header */
+    color: #343a40; /* Dark gray color for the text */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    font-weight: bold; /* Bold labels */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Border color */
+    
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker border on hover */
+}
+
+/* Alert styles */
+.alert {
+    margin-top: 15px; /* Space above alert messages */
+}

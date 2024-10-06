@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+.card {
+    height: 400px; /* Set a fixed height */
+    width: 100%; /* Full width in the column */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensures image scales correctly */
+}
+
+.card-body {
+    flex-grow: 1; /* This makes the card body fill the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    width: 48%; /* Make buttons smaller and inline */
+    margin: 1% 1%;
+}
+
+
+
